@@ -46,6 +46,7 @@ public class FirstActivity extends AppCompatActivity {
             case R.id.remove_item:
                 Toast.makeText(this, "you clicked remove", Toast.LENGTH_SHORT).show();
                 break;
+
             default:
         }
         return true;
