@@ -16,6 +16,7 @@ public class SecondActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Toast.makeText(SecondActivity.this,"即将销毁活动",Toast.LENGTH_LONG).show();
 
                 finish();
